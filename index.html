@@ -8,15 +8,16 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body id="top">
     <!-- page header -->
-    <header>
+    <header class="page-header">
       <h1>Anitas cool portfolio</h1>
-      <nav>
-        <ul>
+      <nav class="main-navigation">
+        <ul class="inline-list">
           <li><a href="#">Home</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#links">Links</a></li>
@@ -30,7 +31,9 @@
 
       <!-- Start hero section -->
       <section>
-        <h1>Anitas portfolio</h1>
+        <header class="section-header">
+          <h1>Anitas portfolio</h1>
+        </header>
       </section>
 
       <!-- Start intro section -->
@@ -48,12 +51,12 @@
             exercitationem repellendus quas ipsum et, possimus eum iure
             laboriosam nemo id omnis!
           </p>
-          <ul>
+          <ul class="inline-list portfolio-list">
             <li>
               <a href="#">
                 <h2>Work 1</h2>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://via.placeholder.com/100"
                   alt="Portfolio image"
                 />
                 <p>
@@ -66,7 +69,7 @@
               <a href="#">
                 <h2>Work 2</h2>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://via.placeholder.com/100"
                   alt="Portfolio image"
                 />
                 <p>
@@ -79,7 +82,7 @@
               <a href="#">
                 <h2>Work 3</h2>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://via.placeholder.com/100"
                   alt="Portfolio image"
                 />
                 <p>
@@ -92,7 +95,7 @@
               <a href="#">
                 <h2>Work 4</h2>
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://via.placeholder.com/100"
                   alt="Portfolio image"
                 />
                 <p>
@@ -110,7 +113,7 @@
         <div class="container">
           <h3>Links</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, commodi?</p>
-          <ul>
+          <ul class="inline-list">
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
             <li><a href="#">Link 3</a></li>
@@ -129,19 +132,21 @@
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-        </li>
-      </ul>
-      <p>© <a>Anita's kitchen</a> 2019.</p>
-    </footer>
-    <a href="#top">Top</a>
+      <div class="container">
+        <ul class="inline-list">
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+        <p>© <a>Anita's kitchen</a> 2019.</p>
+      </footer>
+      <a href="#top">Top</a>
+      </div>
   </body>
 </html>
